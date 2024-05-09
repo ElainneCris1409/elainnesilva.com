@@ -9,7 +9,7 @@ const cardProjects = [
     title: "This Web Site",
     value: "thisWebSite",
     description: "Click here and you can see the code from this website.",
-    url: "https://github.com/antoniorws/antoniorwserra.com",
+    url: "",
     image: ThisSiteImage
   },
   {

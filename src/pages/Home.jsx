@@ -7,7 +7,7 @@ function Home(){
     inject();
     console.log("Hi Dev :D");
     return (<Main>
-                <H1>Antonio Serra</H1>
+                <H1>Elainne Silva</H1>
                     <DivSoftwareDeveloper>
                         <Typed
                             strings={[
