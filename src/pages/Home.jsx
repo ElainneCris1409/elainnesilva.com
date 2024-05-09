@@ -11,7 +11,7 @@ function Home(){
                     <DivSoftwareDeveloper>
                         <Typed
                             strings={[
-                            "Software QA & Nurse",
+                            "Software QA - Nurse",
                             ]}
                             typeSpeed={100}
                         />
@@ -54,7 +54,7 @@ const DivSoftwareDeveloper = styled.div`
     font-size: 110%;
     font-weight: bold;
     margin: 0 30%;
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 3000px) {
         margin: 0;
     }
 `;
