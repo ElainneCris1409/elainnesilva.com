@@ -11,7 +11,7 @@ function Home(){
                     <DivSoftwareDeveloper>
                         <Typed
                             strings={[
-                            "Software QA",
+                            "Software QA & Nurse",
                             ]}
                             typeSpeed={100}
                         />
