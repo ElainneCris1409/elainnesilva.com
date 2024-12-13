@@ -9,9 +9,9 @@ function Footer(){
         <FooterComponent>
             <SocialMediaNav>
                 <SocialMediaList>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://github.com/antoniorws"><SocialMediaIcon alt='GitHub' src={gitHubImage} /></SocialMediaLink></SocialMediaItem>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/antonio-rodrigo-wanderley-serra/"><SocialMediaIcon alt='LinkedIn' src={linkedInImage} /></SocialMediaLink></SocialMediaItem>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.instagram.com/antoniowserra/"><SocialMediaIcon alt='Instagram' src={instagramImage} /></SocialMediaLink> </SocialMediaItem>
+                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://github.com/ElainneCris1409/elainnesilva.com"><SocialMediaIcon alt='GitHub' src={gitHubImage} /></SocialMediaLink></SocialMediaItem>
+                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/elainne-ferreira-da-silva-b5578b158/"><SocialMediaIcon alt='LinkedIn' src={linkedInImage} /></SocialMediaLink></SocialMediaItem>
+                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.instagram.com/elainne_enf/"><SocialMediaIcon alt='Instagram' src={instagramImage} /></SocialMediaLink> </SocialMediaItem>
                 </SocialMediaList>
                 <P>Elainne Silva • © 2024</P>
             </SocialMediaNav>
