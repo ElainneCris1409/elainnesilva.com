@@ -28,18 +28,12 @@ function About(){
                 <P>Essa experiência despertou meu interesse pelo universo da tecnologia e sua aplicação no campo da saúde, levando-me a investir em minha formação em QA.</P>
                 <P>Atualmente me dedico a aprimorar meus estudos para tão logo possa ser uma desenvolvedora fullstack</P>
             </section>
-                  <P>Very focused professional and very easy to work in a team.</P>
-                  <P><Inovation><Typed
-                            strings={[
-                            "I always look for innovation.",
-                            ]}
-                            typeSpeed={50}
-                        /></Inovation> On my journey I was part of MV Sistemas.</P>
-                  <P>Learning the business rules of the Hospital area (mainly the Supplies area).</P>
-                  <P>I was also part of the technology area at Accenture focused on financial services, today I am part of China Systems.</P>
-              </div>
-        </MainAbout>
-    )
+                  <P>Sou uma profissional focada, dispostas a aprender e com facilidade para o trabalho em equipe.</P>
+                  <P>Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.</P>
+        </div>
+        </MainAbout>     
+
+    );
 }
 
 const Inovation = styled.div`
