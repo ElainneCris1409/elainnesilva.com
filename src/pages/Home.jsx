@@ -11,11 +11,13 @@ function Home(){
                     <DivSoftwareDeveloper>
                         <Typed
                             strings={[
-                            "Developer| Front end | QA",
+                            " Front - End Developer | QA | Tech Enthusiast",
                             ]}
                             typeSpeed={100}
+                            backSpeed={50}
+                            loop
                         />
-                    </DivSoftwareDeveloper>
+                    </DivSoftwareDeveloper>                    
             </Main>
     )
 }

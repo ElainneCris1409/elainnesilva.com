@@ -7,34 +7,84 @@ import { inject } from '@vercel/analytics';
 function About(){
     inject();
     return (  
-        <MainAbout>
-              <DivImageAbout>
-                <DivImageAboutImg src={aboutImg} alt="About Image" />
-              </DivImageAbout>
-              <div>
-              <section>
-                <P>Olá, sou Elainne Silva, tenho 41 anos, sou de Manaus-AM, Brasil.</P> 
-                  <P>Sou esposa, mãe, mãe de pet, enfermeira e atualmente me aventurando no mundo de testes e desenvolvimento de software.</P>
-                    <P> Recentemente finalizei uma pós graduação em Software Quality Assurance no ISEP, e estou em busca de novos desafios e oportunidades. </P>
-            </section>
-            <section>
-                <h3>Formação</h3>
-                <P>"Formada em Enfermagem pela Faculdade Metropolitana de Manaus, acumulei 10 anos de experiência na área.</P>
-                <P> No entanto, ao imigrar para Portugal, decidi iniciar uma nova jornada profissional em busca de satisfação pessoal e conhecimento do desconhecido.</P>
-                <P> Em janeiro de 2024, concluí uma Pós-Graduação em QA (Software Quality Assurance) no Instituto Superior de Engenharia do Porto, Portugal.</P>    
-                <P>Minha transição para a área de tecnologia foi motivada por uma experiência anterior durante meu trabalho como enfermeira.</P> 
-                <P>Enquanto lidava com protocolos de saúde que envolviam a utilização de bundles, reconheci a necessidade de levantar requisitos para desenvolver funcionalidades que otimizassem e agilizassem esses protocolos.</P> 
-                <P>Fui responsável pelo levantamento desses requisitos e acompanhei sua implementação pela equipe de TI, que na época utilizava o sistema MV.</P>
-                <P>Essa experiência despertou meu interesse pelo universo da tecnologia e sua aplicação no campo da saúde, levando-me a investir em minha formação em QA.</P>
-                <P>Atualmente me dedico a aprimorar meus estudos para tão logo possa ser uma desenvolvedora fullstack</P>
-            </section>
-                  <P>Sou uma profissional focada, dispostas a aprender e com facilidade para o trabalho em equipe.</P>
-                  <P>Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.</P>
-        </div>
-        </MainAbout>     
-
-    );
-}
+            <MainAbout>
+                <DivImageAbout>
+                    <DivImageAboutImg src={aboutImg} alt="About Image" />
+                </DivImageAbout>
+                <div>
+                    <section>
+                        <h2>Olá! Eu sou Elainne Silva.</h2>
+                        <P>
+                            Tenho 41 anos, sou de Manaus-AM, Brasil, e atualmente vivo em
+                            Portugal. Sou esposa, mãe, mãe de pet, enfermeira por formação e apaixonada
+                            por tecnologia. Recentemente, finalizei uma Pós-Graduação em{" "}
+                            <strong>Software Quality Assurance (QA)</strong> pelo{" "}
+                            <strong>Instituto Superior de Engenharia do Porto (ISEP)</strong> e estou em
+                            busca de novos desafios no mundo da tecnologia.
+                        </P>
+                    </section>
+                    <section>
+                        <h3>Minha Jornada Profissional</h3>
+                        <P>
+                            Sou formada em <strong>Enfermagem</strong> pela Faculdade Metropolitana
+                            de Manaus, com mais de 10 anos de experiência na área da saúde. Ao
+                            imigrar para Portugal, decidi dar um novo rumo à minha carreira, movida
+                            pela vontade de aprender e pela paixão por inovação.
+                        </P>
+                        <P>
+                            Minha transição para a tecnologia começou quando, como enfermeira,
+                            participei do levantamento de requisitos para implementar funcionalidades
+                            em sistemas hospitalares. Essa experiência me mostrou o impacto da
+                            tecnologia na otimização de processos e despertou meu interesse por{" "}
+                            <strong>Qualidade de Software</strong> e{" "}
+                            <strong>Desenvolvimento Fullstack</strong>.
+                        </P>
+                    </section>
+                    <section>
+                        <h3>Destaques da Minha Formação</h3>
+                        <ul>
+                            <li>Enfermagem pela Faculdade Metropolitana de Manaus.</li>
+                            <li>
+                                Pós-Graduação em QA pelo Instituto Superior de Engenharia do Porto
+                                (2024).
+                            </li>
+                            <li>
+                                Experiência prática em análise de requisitos e implementação de
+                                soluções tecnológicas para a área da saúde.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Habilidades e Valores</h3>
+                        <ul>
+                            <li>
+                                <strong>Foco e Dedicação</strong>: Sempre disposta a aprender e encarar
+                                novos desafios.
+                            </li>
+                            <li>
+                                <strong>Trabalho em Equipe</strong>: Facilidade em colaborar e me
+                                comunicar em diferentes contextos.
+                            </li>
+                            <li>
+                                <strong>Curiosidade Técnica</strong>: Em constante aprimoramento para
+                                alcançar meu objetivo de me tornar uma desenvolvedora fullstack.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Meu Objetivo</h3>
+                        <P>
+                            Aproveitar minha experiência única como enfermeira e minha formação em QA
+                            para desenvolver soluções tecnológicas que impactem positivamente a vida
+                            das pessoas. Estou pronta para contribuir em projetos desafiadores e
+                            crescer profissionalmente no universo da tecnologia.
+                        </P>
+                    </section>
+                </div>
+            </MainAbout>
+        );
+    }
+    
 
 const Inovation = styled.div`
 background-image: linear-gradient(135deg, var(--purple) 0%, var(--pink) 70%);
