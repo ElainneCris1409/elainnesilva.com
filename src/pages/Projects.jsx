@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
 import PostgraduateImage from '../assets/images/PostgraduateImage.png'; // Substitua pela imagem do projeto
+import AcceptanceTestQAImage from '../assets/images/AcceptanceTestQAImage.png'; // Substitua pela imagem do projeto
+import ProdsystemImage from '../assets/images/ProdsystemImage.png'; // Substitua pela imagem do projeto
 import { inject } from '@vercel/analytics';
 
 const cardProjects = [
@@ -10,7 +12,25 @@ const cardProjects = [
     description: "Click here to access the repository for my postgraduate project at ISEP.",
     url: "https://github.com/ElainneCris1409/projeto-isep.git", // Link do repositório
     image: PostgraduateImage // Imagem representativa do projeto
-  }
+  },
+  
+  {
+    title: "Acceptance Test QA",
+    value: "acceptanceTestQA",
+    description: "Click here to access the repository for my acceptance test project at ISEP.",
+    url:"https://github.com/ElainneCris1409/acceptance-testesQA.git" ,
+    image: AcceptanceTestQAImage
+  },
+
+  {
+    title: "Prod System",
+    value: "prodSystem",
+    description: "Click here to access the repository for my new project.",
+    url:" https://github.com/ElainneCris1409/prod-system.git",
+    image: ProdsystemImage
+  },
+  
+
   // Adicione novos projetos aqui como objetos dentro do array
 ];
 
